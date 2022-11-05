@@ -16,7 +16,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #eee;
   width: 95%;
   padding: 10px;
 }
@@ -44,14 +44,13 @@ p {
 }
 .help {
   width: 20%;
-  background-color: green;
+  background-color: #70ccc2;
 }
-
 .subscribe {
-  background-color: aqua;
+  background-color: #62b3aa;
 }
 .specialSearches {
-  background-color: aquamarine;
+  background-color: #7ee5da;
 }
 
 .footer {
