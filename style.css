@@ -1,11 +1,17 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
   gap: 5px;
 }
-
+.outsideWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 95%;
+}
 p {
   margin: 0;
 }
@@ -17,14 +23,13 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #eee;
-  width: 95%;
   padding: 10px;
 }
 .insideWrapper {
   display: flex;
   flex-direction: row;
   gap: 5px;
-  width: 95%;
+  width: 100%;
 }
 
 .specialSearches,
